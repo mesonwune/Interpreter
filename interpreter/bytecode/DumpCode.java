@@ -16,7 +16,7 @@ public class DumpCode extends ByteCode
     public String toString()
     {
 
-        return null;
+        return "DUMP";
     }
 
     @Override

@@ -16,7 +16,7 @@ public class LitCode extends ByteCode
     public String toString()
     {
 
-        return null;
+        return "LIT";
     }
 
     @Override

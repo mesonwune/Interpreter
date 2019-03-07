@@ -16,7 +16,7 @@ public class StoreCode extends ByteCode
     public String toString()
     {
 
-        return null;
+        return "STORE";
     }
 
     @Override

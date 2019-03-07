@@ -16,7 +16,7 @@ public class BopCode extends ByteCode
     public String toString()
     {
 
-        return null;
+        return "BOP";
     }
 
     @Override

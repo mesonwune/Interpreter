@@ -16,7 +16,7 @@ public class ReturnCode extends ByteCode
     public String toString()
     {
 
-        return null;
+        return "RETURN";
     }
 
     @Override

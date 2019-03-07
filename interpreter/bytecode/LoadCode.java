@@ -16,7 +16,7 @@ public class LoadCode extends ByteCode
     public String toString()
     {
 
-        return null;
+        return "LOAD";
     }
 
     @Override

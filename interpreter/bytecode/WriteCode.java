@@ -16,7 +16,7 @@ public class WriteCode extends ByteCode
     public String toString()
     {
 
-        return null;
+        return "WRITE";
     }
 
     @Override

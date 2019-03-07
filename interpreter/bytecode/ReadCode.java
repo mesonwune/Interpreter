@@ -16,7 +16,7 @@ public class ReadCode extends ByteCode
     public String toString()
     {
 
-        return null;
+        return "READ";
     }
 
     @Override

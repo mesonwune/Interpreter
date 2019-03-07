@@ -6,6 +6,8 @@ import java.util.ArrayList;
 
 public class LabelCode extends ByteCode
 {
+    private String data;
+
     @Override
     public void execute(VirtualMachine vm)
     {
@@ -16,12 +18,22 @@ public class LabelCode extends ByteCode
     public String toString()
     {
 
-        return null;
+        return "LABEL";
     }
 
     @Override
     public void init(ArrayList<String> list)
     {
+        data = list.get(0);
+    }
 
+    public String getAddress()
+    {
+        return data;
+    }
+
+    public void setAddress(int i)
+    {
+        data = Integer.toString(i);
     }
 }

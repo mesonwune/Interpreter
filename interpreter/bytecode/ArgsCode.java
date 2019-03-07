@@ -15,7 +15,7 @@ public class ArgsCode extends ByteCode
     @Override
     public String toString()
     {
-        return null;
+        return "ARGS";
     }
 
     @Override

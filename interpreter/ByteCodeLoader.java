@@ -10,8 +10,6 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-//import java.io.ClassNotFoundException;
-
 
 
 public class ByteCodeLoader extends Object {
@@ -44,12 +42,16 @@ public class ByteCodeLoader extends Object {
         Program pr = new Program();;
         ArrayList<String> inputLine = new ArrayList<String>();
         ArrayList<ByteCode> byteCodes = new ArrayList<ByteCode>();
+
+        //try-catch to catch any errors
         try
         {
+
             String line;
             while ((line = byteSource.readLine()) != null)
             {
                 tokens = new StringTokenizer(line," ");
+                //while tokens has more tokens grab the lines and separate
                 while (tokens.hasMoreTokens())
                 {
                     className = CodeTable.getClassName((String) tokens.nextToken());

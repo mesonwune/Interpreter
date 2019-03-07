@@ -16,7 +16,7 @@ public class PopCode extends ByteCode
     public String toString()
     {
 
-        return null;
+        return "POP";
     }
 
     @Override

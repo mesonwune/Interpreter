@@ -6,6 +6,8 @@ import java.util.ArrayList;
 
 public class GoToCode extends ByteCode
 {
+    private String data;
+
     @Override
     public void execute(VirtualMachine vm)
     {
@@ -15,12 +17,22 @@ public class GoToCode extends ByteCode
     @Override
     public String toString()
     {
-        return null;
+        return "GOTO";
     }
 
     @Override
     public void init(ArrayList<String> list)
     {
+        data = list.get(0);
+    }
 
+    public String getAddress()
+    {
+        return data;
+    }
+
+    public void setAddress(int i)
+    {
+        data = Integer.toString(i);
     }
 }
