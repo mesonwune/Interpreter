@@ -58,6 +58,6 @@ public class RunTimeStack {
 
     public Integer push(Integer val)
     {
-
+        return 0;
     }
 }
