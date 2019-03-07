@@ -86,7 +86,7 @@ public class Program {
             //if bytecode is gotocode, get the symbolic address
             else if (codes.toString().equals("GOTO"))
             {
-                GoToCode code = (GoToCode)codes;
+                GotoCode code = (GotoCode)codes;
                 addressSymbolic = code.getAddress();
 
                 if (addressSymbolic.equals(labelAddresses))

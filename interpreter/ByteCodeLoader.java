@@ -37,7 +37,7 @@ public class ByteCodeLoader extends Object {
      */
     public Program loadCodes() {
         StringTokenizer tokens;
-        ByteCode bc = null;
+        ByteCode bc;
         String className = "";
         Program pr = new Program();;
         ArrayList<String> inputLine = new ArrayList<String>();

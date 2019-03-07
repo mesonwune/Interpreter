@@ -4,7 +4,7 @@ import interpreter.VirtualMachine;
 
 import java.util.ArrayList;
 
-public class GoToCode extends ByteCode
+public class GotoCode extends ByteCode
 {
     private String data;
 
